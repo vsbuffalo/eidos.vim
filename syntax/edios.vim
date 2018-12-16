@@ -23,7 +23,7 @@ syntax keyword ediosFunctions
       \ beep citation clock date defineConstant doCall executeLambda exists functionSignature getSeed license ls rm sapply setSeed source 
       \ stop suppressWarnings system time usage version 
       \ str length methodSignature propertySignature size 
-      \ initializeGeneConversion initializeGenomicElement GenomicElementType initializeInteractionType initializeMutationRate initializeMutationType initializeRecombinationRate initializeSex initializeSex initializeSLiMOptions initializeTreeSeq
+      \ initializeGeneConversion initializeGenomicElement initializeGenomicElementType initializeInteractionType initializeMutationRate initializeMutationType initializeRecombinationRate initializeSex initializeSex initializeSLiMOptions initializeTreeSeq
       \ initialize fitness mateChoice mateChoice recombination interaction reproduction
 
 "edios number types

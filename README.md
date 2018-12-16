@@ -3,6 +3,9 @@
 This is a very simple Vim plugin for syntax highlighting for the edios
 language for [SLiM](https://messerlab.org/slim/).
 
+
+![a screenshot of edios.vim syntax highlighting](https://i.imgur.com/W8yw8Nk.png)
+
 ### Installation 
 
 I recommend [vim-plug](https://github.com/junegunn/vim-plug), which makes
