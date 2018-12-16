@@ -4,7 +4,7 @@ This is a very simple Vim plugin for syntax highlighting for the edios
 language for [SLiM](https://messerlab.org/slim/).
 
 
-<img src="https://i.imgur.com/rLBlkhB.png" width="400" />
+<img src="https://i.imgur.com/rLBlkhB.png" width="700" />
 
 
 ### Installation 
