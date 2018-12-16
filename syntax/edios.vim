@@ -36,6 +36,7 @@ syntax region ediosString start=/"/ skip=/\\"/ end=/"/
 
 "" edios logical types
 syntax keyword ediosBoolean T F
+syntax keyword ediosBoolean NULL
 
 " Set highlights
 highlight default link ediosBlockComment Comment
