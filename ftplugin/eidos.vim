@@ -1,5 +1,5 @@
 " ftplugin/swift.vim
-" Language: SLiM's edios language
+" Language: SLiM's eidos language
 " Maintainer:  vsbuffalo <vsbuffalo@gmail.com>
 setlocal commentstring=//\ %s
 setlocal tabstop=4

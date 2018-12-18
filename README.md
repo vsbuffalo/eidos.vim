@@ -1,6 +1,6 @@
-## edios.vim — Vim syntax highlighting for SLiM's edios language
+## eidos.vim — Vim syntax highlighting for SLiM's eidos language
 
-This is a very simple Vim plugin for syntax highlighting for the edios
+This is a very simple Vim plugin for syntax highlighting for the eidos
 language for [SLiM](https://messerlab.org/slim/).
 
 
@@ -12,7 +12,7 @@ language for [SLiM](https://messerlab.org/slim/).
 I recommend [vim-plug](https://github.com/junegunn/vim-plug), which makes
 installation easy:
 
-    Plug 'vsbuffalo/edios.vim'
+    Plug 'vsbuffalo/eidos.vim'
 
 then run `PlugInstall`.
 

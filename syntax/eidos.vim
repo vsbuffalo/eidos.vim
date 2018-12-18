@@ -1,15 +1,15 @@
-" syntax/edios.vim
-" Language: SLiM's edios language
+" syntax/eidos.vim
+" Language: SLiM's eidos language
 " Maintainer:  vsbuffalo <vsbuffalo@gmail.com>
 
 
 
-syntax match ediosComment "//.*$"
-syntax region ediosBlockComment start="/\*" end="\*/" 
+syntax match eidosComment "//.*$"
+syntax region eidosBlockComment start="/\*" end="\*/" 
 
-syntax keyword ediosKeywords if else while do for in next break return function
+syntax keyword eidosKeywords if else while do for in next break return function
 
-syntax keyword ediosFunctions
+syntax keyword eidosFunctions
       \ abs acos asin atan atan2 ceil cos cumProduct cumSum exp floor integerDev integerMod isFinite isInfinite isNAN log log2 log10 
       \ product round setDifference setIntersection setSymmetricDifference setUnion sin sqrt sum sumExacttan trunc
       \ cor cov max mean min pmax pmin range sd ttest var 
@@ -26,23 +26,23 @@ syntax keyword ediosFunctions
       \ initializeGeneConversion initializeGenomicElement initializeGenomicElementType initializeInteractionType initializeMutationRate initializeMutationType initializeRecombinationRate initializeSex initializeSex initializeSLiMOptions initializeTreeSeq
       \ initialize fitness mateChoice mateChoice recombination interaction reproduction
 
-"edios number types
-syntax match ediosNumber "\v<\d+>"
-syntax match ediosNumber "\v<\d+\.\d+>"
-syntax match ediosNumber "\v<\d*\.?\d+([Ee]-?)?\d+>"
+"eidos number types
+syntax match eidosNumber "\v<\d+>"
+syntax match eidosNumber "\v<\d+\.\d+>"
+syntax match eidosNumber "\v<\d*\.?\d+([Ee]-?)?\d+>"
 
-"edios strings
-syntax region ediosString start=/"/ skip=/\\"/ end=/"/ 
+"eidos strings
+syntax region eidosString start=/"/ skip=/\\"/ end=/"/ 
 
-"" edios logical types
-syntax keyword ediosBoolean T F
-syntax keyword ediosBoolean NULL
+"" eidos logical types
+syntax keyword eidosBoolean T F
+syntax keyword eidosBoolean NULL
 
 " Set highlights
-highlight default link ediosBlockComment Comment
-highlight default link ediosComment Comment
-highlight default link ediosNumber Number
-highlight default link ediosBoolean Boolean
-highlight default link ediosKeywords Keyword
-highlight default link ediosFunctions Function
-highlight default link ediosString String
+highlight default link eidosBlockComment Comment
+highlight default link eidosComment Comment
+highlight default link eidosNumber Number
+highlight default link eidosBoolean Boolean
+highlight default link eidosKeywords Keyword
+highlight default link eidosFunctions Function
+highlight default link eidosString String
