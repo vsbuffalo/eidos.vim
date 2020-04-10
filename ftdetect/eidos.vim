@@ -3,3 +3,4 @@
 " Maintainer:  vsbuffalo <vsbuffalo@gmail.com>
 
 autocmd BufNewFile,BufRead *.slim setfiletype eidos
+autocmd BufNewFile,BufRead *.eidos setfiletype eidos
