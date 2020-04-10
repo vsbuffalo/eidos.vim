@@ -1,6 +1,6 @@
-## eidos.vim — Vim syntax highlighting for SLiM's eidos language
+## eidos.vim — Vim syntax highlighting for SLiM's Eidos language
 
-This is a very simple Vim plugin for syntax highlighting for the eidos
+This is a very simple Vim plugin for syntax highlighting for the Eidos
 language for [SLiM](https://messerlab.org/slim/).
 
 
@@ -18,7 +18,7 @@ then run `PlugInstall`.
 
 ### Usage
 
-This autodetects `.slim` files, and automatically applies syntax highlighting
-to this filetype.
+This autodetects `.slim` and `.eidos` files, and automatically applies syntax
+highlighting to this filetype.
 
 
